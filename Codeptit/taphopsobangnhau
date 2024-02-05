@@ -1,0 +1,4 @@
+inp = input()
+a = sorted(list(set([int(x) for x in input().split()])))
+b = sorted(list(set([int(x) for x in input().split()])))
+print("YES" if a == b else "NO")
